@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'pfdb';
+    src: url("C:\xampp\htdocs\Resume\fonts\PlayfairDisplay-Black.ttf");
+}
+body {
+    font-family: 'pfdb';
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    font-family: 'pfdb';
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    font-family: 'pfdb';
+    background-color: #767CB5;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-family: 'pfdb';
+    margin: 0;
+}
+
+header p {
+    font-family: 'pfdb';
+    margin-top: 10px;
+}
+
+.section {
+    font-family: 'pfdb';
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.section h2 {
+    font-family: 'pfdb';
+    margin-top: 0;
+}
+
+.skills {
+    font-family: 'pfdb';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    font-family: 'pfdb';
+    flex: 0 0 calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.skill-bar {
+    background-color: #f0f0f0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    width: 0;
+    background-color: orangered;
+    animation: animateSkill 1s ease-out forwards;
+}
+
+.job h3 {
+    font-family: 'pfdb';
+    margin-top: 0;
+}
+
+@keyframes animateSkill {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #767CB5;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid;
+}
